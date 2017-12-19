@@ -2,15 +2,17 @@
 Bloquear todas las ip de fuerza bruta a wp-login.php
 
 # Pasos previos
-mkdir wplogin
-cd wplogin
-vi wplogin.sh
+Crear directorio y archivo
+* mkdir wplogin
+* cd wplogin
+* vi wplogin.sh
 
-# EJECUTABLE
+# Ejecutable
 chmod +x wplogin.sh
 
-# AGREGAR A CRON
+# Agregar a Cron
 0 */6 * * * /wplogin/wplogin.sh
 
-# FUENTE 
+Fuente
+
 Akamaras http://www.akamaras.com/cpanel/how-to-block-brute-force-attacks-against-wp-login-php-on-a-cpanel-server-using-csf/
